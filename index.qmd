@@ -10,7 +10,7 @@ format:
 editor: visual
 ---
 
-![](poltekapp.jpg)
+![](images/poltekapp.jpg)
 
 ## Pendahuluan
 

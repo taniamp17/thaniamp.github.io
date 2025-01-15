@@ -1,8 +1,8 @@
 ---
-title: "Pengaruh Nilai Ekspor Kelapa Sawit ke India Terhadap GDP Indonesia"
+title: "Melihat hubungan ekspor dan nilai tukar"
 subtitle: "Metode Penelitian Politeknik APP Jakarta"
-author: "Thaniea Mahardika Prameswari"
-date: 2025-01-11
+author: "I Made Krisna"
+date: 2022-08-10
 number-sections: true
 format:
   html: default
@@ -10,33 +10,26 @@ format:
 editor: visual
 ---
 
-![](images/poltekapp.jpg)
+This just a showcase of what quarto docs can produce. I use this part for my students.
 
 ## Pendahuluan
 
 ### Latar belakang
 
-Indonesia merupakan negara agraris yang didominasi oleh sektor pertanian sebagai andalan mata pencaharian. Dari perkebunan Indonesia memiliki komoditas unggulan yaitu kelapa sawit. Hasil olahan dari kelapa sawit adalah minyak kelapa sawit atau yang di sebut dengan Crude Palm Oil (CPO). Menurut Maygirtasari, Yulianto dan Mawardi (2015:1) menyatakan Indonesia merupakan negara yang kaya akan Sumber Daya Alam dan Sumber Daya Manusia. Sumber Daya Alam yang melimpah dijadikan sebagai sumber tanaman pangan dan komoditas ekspor. Perkebunan merupakan salah satu subsektor yang memiliki peran penting dalam pembangunan.
+Latar belakang berisi tentang pentingnya topik yang diangkat dalam laporan. Uraikan alasan mengapa penulis tertarik menentukan topik yang dijadikan pembahasan, dapat menggunakan metode identifikasi masalah (fishbone diagram, root cause problem solving, dll). Kemukakan hal–hal yang mendorong atau argumentasi pentingnya penyelesaian permasalahan tersebut, termasuk jika ada hasil penelitian terkait yang telah dilakukan terdahulu.  
 
-Hasil perkebunanan yang di ekspor dan menjadi komoditas adalan Indonesia salah satunya adalah kelapa sawit. Berdasarkan data Direktorat Jenderal Perkebunan 2011 dari sepuluh komodias perkebunan Indonesia tahun 2008-2011 CPO memiliki jumlah produksi yang paling tinggi. Sedangkan berdasarkan informasi dari Badan Koordinasi Penanaman Modal (BKPM), Indonesia adalah produsen CPO terbesar di dunia, dengan harapan bahwa Indonesia mampu memberikan kontribusi besar tehadap kebutuhan CPO dunia.penopang pembangunan.Menurut Alatas (2015:116) Indonesia mempunyai Sumber Daya Alam yang sangat besar jika dibandingkan dengan negara lain, sehingga Indonesia dapat menjadi sentra penghasil komoditas perkebunan yaitu kelapa sawit dan menjadi pengekspor CPO terbesar di dunia.
-
-Hal tersebut tentunya tidak lepas dari hal-hal yang mendukung peningkatan ekspor CPO yang dapat menembus pasar dunia.Menurut Rosita, Haryadi, dan Amril (2014:183) dalam penelitiannya yang berjudul Determinan Ekspor CPO Indonesia bahwa Indonesia merupakan produsen CPO terbesar di dunia. Jumlah produksi minyak kelapa sawit yang terus mengalami peningkatan yang cukup signifikan mampu memasok akan kebutuhan CPO dunia sebesar 47%. Data perkembangan ekspor komoditi subsektor perkebunan terus mengalami peningkatan selama 10 tahun terakhir.
 
 ### Ruang lingkup
 
-Ruang lingkup penelitian ini difokuskan pada periode 2012 hingga 2023. Penelitian ini akan membahas hubungan nilai ekspor kelapa sawit ke india terhadap GDP Indonesia. Pertanyaan yang akan dijawab yaitu: “Apakah Niali ekpsor kelapa sawit berpengaruh terhadap kenaikan GDP ?
+Bagian ini menguraikan batasan ruang lingkup bahasan permasalahan pada laporan, dapat berupa batasan waktu maupun topik yang dibahas. Biasanya pertanyaan dan batasan penelitian ada di sini.
 
 ### Rumusan masalah
 
-(1) Apakah ada keterikatan antara ekspor kelapa sawit dengan GDP?
-(2) Bagaimana Pertumbuhan ekspor kelapa sawit?
-(3) Adakah kenaikan GDP akibat ekspor kelapa sawit?
+Bagian ini menuliskan poin-poin permasalahan apa saja yang akan dibahas dalam laporan. Dapat juga merumuskan hipotesis penelitian.
 
 ### Tujuan dan manfaat penelitian
 
-(1) Untuk mengetahui hubungan antara nilai eskpor terhadap GDP indonesia
-(2) Untuk mengetahui volume ekspor CPO ke India
-(3) Untuk mengetahui pertumbuhahan GDP Indonesia
+Bagian ini merupakan jawaban yang akan dicapai dari pembahasan laporan, biasanya dirumuskan dari poin-poin masalah yang telah dijabarkan sebelumnya. Identifikasi siapa saja stakeholders yang dapat memanfaatkan penelitian ini.
 
 ### Package
 
@@ -52,132 +45,64 @@ library(WDI) # tambahkan library lain jika diperlukan
 
 ## Studi pustaka
 
-A. Salvatore (1997): Ekspor adalah pengiriman barang atau jasa yang dilakukan oleh suatu negara ke negara lain untuk mendapatkan devisa dan memperluas pasar internasional. Aktivitas ini mencerminkan integrasi ekonomi antarnegara melalui perdagangan.
+Salah satu bagian yang penting dalam penelitian adalah melakukan studi literatur, yaitu membaca dari berbagai sumber sesuai dengan topik yang diteliti untuk menghasilkan ide/analisis baru yang dipresentasikan dalam sebuah karya ilmiah. 
 
-B. Krugman dan Obstfeld (2009): Ekspor didefinisikan sebagai tindakan suatu negara menjual barang atau jasa ke pasar internasional untuk meningkatkan surplus perdagangan. Ekspor juga merupakan salah satu indikator kinerja ekonomi dalam hubungan perdagangan internasional.
+Bab ini menguraikan dasar-dasar teori dan istilah yang berhubungan dengan permasalahan yang ditemui atau yang mendasari pemilihan topik laporan. Studi Pustaka dilengkapi dengan sumber referensi yang dipakai dan bukan berdasarkan asumsi penulis. 
 
-Kelapa Sawit
-
-A. Corley dan Tinker (2003): Kelapa sawit (Elaeis guineensis) adalah tanaman tropis yang berasal dari Afrika Barat dan menjadi salah satu sumber minyak nabati terbesar di dunia. Tanaman ini dikenal dengan tingkat produktivitasnya yang tinggi dibandingkan dengan tanaman minyak nabati lainnya, seperti kedelai dan bunga matahari.
-
-B. Hartley (1988): Kelapa sawit adalah tanaman industri utama yang menghasilkan minyak dari mesokarp buah dan biji (kernel). Produk minyak sawit digunakan untuk konsumsi manusia, bahan bakar, dan bahan baku industri kimia serta kosmetik.
 
 ## Metode penelitian
 
 ### Data
 
-![]()
+![logo APP muncul secara random](poltekapp.jpg)
 
-| TAHUN | HARGA CPO (X) | GDP (Y)  |
-|-------|---------------|----------|
-| 2012  | 5456,3        | 3632,273 |
-| 2013  | 6191,7        | 3566,603 |
-| 2014  | 4983,6        | 3441,068 |
-| 2015  | 5886,5        | 3288,223 |
-| 2016  | 5459,1        | 3521,469 |
-| 2017  | 7376,8        | 3798,883 |
-| 2018  | 6415,8        | 3860,954 |
-| 2019  | 4655,3        | 4106,949 |
-| 2020  | 4631,9        | 3853,703 |
-| 2021  | 3101,8        | 4287,173 |
-| 2022  | 4999,3        | 4730,745 |
-| 2023  | 5406,9        | 4876,314 |
+penelitian ini menggunakan data xxx
 
 ```{r}
-setwd("C:/metopel")
-metopel2<-read_excel("DATAMETOPEL.xlsx")
-library(readxl)
-reg2 <-lm(data = metopel2,Y~X)
-summary(reg2)
-
-library(readxl)
-metopel2$m <-resid(reg2)
-plot(metopel2$X,metopel2$m,ylab ="error",col='pink', pch=16)
-abline(h=0)
-```
-
-```{r}
-library(readxl)
-metopel2$m <-resid(reg2)
-plot(metopel2$Y,metopel2$m,ylab ="error",col='blue', pch=16)
-abline(h=0)
+#| label: fig-mpg
+#| fig-cap: "City and highway mileage for 38 popular models of cars.Color by number of cylinders"
+ggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +
+  geom_point(alpha = 0.5, size = 2) +
+  scale_color_viridis_c() +
+  theme_minimal()
 ```
 
 ### Metode analisis
 
-1.Jenis Penelitian
+Metode yang dipilih adalah regresi univariat atau Ordinary Least Square (OLS) dengan 1 variabel independen. Penelitian ini merbaksud mencari hubungan antara hwy dan cty. Spesifikasi yang dilakukan adalah:
 
-Penelitian ini termasuk dalam jenis penelitian kuantitatif dengan pendekatan deskriptif dan kausalitas. Metode regresi linier sederhana digunakan untuk mengetahui hubungan antara nilai ekspor CPO ke India dengan GDP Indonesia.
-
-2.Data dan Sumber Data
-
-Jenis Data: Data kuantitatif berbentuk deret waktu (time series).
-
-Sumber Data: Data sekunder yang diperoleh dari laporan resmi pemerintah, seperti Badan Pusat Statistik (BPS) Indonesia, Kementerian Perdagangan, dan sumber terpercaya lainnya.
-
-3.Populasi dan Sampel
-
-Populasi dalam penelitian ini adalah data nilai ekspor CPO ke India dan GDP Indonesia selama beberapa tahun terakhir (misalnya, 2000–2020). Sampel diambil dengan teknik purposive sampling, yaitu memilih data berdasarkan ketersediaan dan relevansi.
-
-4.Teknik Pengumpulan Data
-
-Data dikumpulkan melalui dokumen resmi dan situs terkait yang mempublikasikan data ekspor dan GDP secara berkala.
-
-5.Teknik Analisis
-
-Data Analisis dilakukan dengan regresi linier sederhana menggunakan perangkat lunak statistik (misalnya, R atau SPSS). Berikut model regresi yang digunakan:
-
-yt$$
+$$
 y_{t}=\beta_0 + \beta_1 x_t+\mu_t
-$$ Dimana $y_t$ adalah GDP Indonesia dan $x_t$ adalah nilai eskpor CPO ke India.
+$$
+di mana $y_t$ adalah hwy dan $x_t$ adalah cty.
 
-# Pembahasan
+## Pembahasan
 
 ### Pembahasan masalah
 
-| Variabel            | Koefisien | Std.error | T-Value | P-Value         |
-|---------------------|-----------|-----------|---------|-----------------|
-| Intercept           | 4760.9861 | 764.3907  | 6.229   | 9.77e-05 \*\*\* |
-| x                   | -0.1575   | 0.1396    | -1.128  | 0.285           |
-| Adjusted R.Square   | 0.02425   |           |         |                 |
-| Residual R. Squared | 0.113     |           |         |                 |
-| Residual Std Error  | 494.7     |           |         |                 |
-| F-Statistic         | 1.1273    |           |         |                 |
+Pada bagian ini dapat ditampilkan data dan visualisasi data yang telah dikumpulkan.
 
 ### Analisis masalah
 
-Hasil regresinya yang telah didapat dimasukkan kedalam rumus persamaan yang ada sehingga menjadi :
-
-$$Y = 4760.9861-0.1575X$$
+Hasil regresinya adalah
 
 ```{r}
-library(readxl)
-reg2 <-lm(data = metopel2,Y~X)
-summary(reg2)
+reg<-lm(hwy~cty,data=mpg)
+summary(reg)
 ```
+
+Dapat dilihat dari tabel di atas bahwa ini bukan regresi AR(1). wkkwkwkwk.
 
 ## Kesimpulan
 
-Berdasarkan hasil penelitian yang menganalisis pengaruh nilai ekspor CPO ke India terhadap GDP Indonesia menggunakan metode regresi linier sederhana, dapat disimpulkan sebagai berikut:
-
-1.Tidak Signifikan
-
-Hasil analisis menunjukkan bahwa nilai ekspor CPO ke India tidak memiliki pengaruh yang signifikan terhadap GDP Indonesia. Hal ini ditunjukkan oleh nilai -value sebesar 0.285 (\> 0.05) dan nilai -statistik sebesar 1.273 yang juga tidak signifikan secara statistik.
-
-2.Kekuatan Hubungan Lemah
-
-Nilai sebesar 0.113 menunjukkan bahwa hanya 11.3% variasi dalam GDP Indonesia yang dapat dijelaskan oleh nilai ekspor CPO ke India. Sisanya dipengaruhi oleh faktor-faktor lain yang tidak termasuk dalam model penelitian ini, seperti konsumsi domestik, investasi, atau variabel ekonomi lainnya.
-
-3.Implikasi
-
-Penelitian ini menyarankan bahwa faktor nilai ekspor CPO ke India bukanlah penentu utama GDP Indonesia. Oleh karena itu, kebijakan ekonomi yang ingin meningkatkan GDP harus mempertimbangkan variabel lain yang lebih signifikan dalam memengaruhi pertumbuhan ekonomi.
+Bagian ini berisi jawaban dari permasalahan dan tujuan yang diajukan pada laporan, yang diperoleh dari hasil pembahasan dan usulan perbaikan. Saran merupakan tindak lanjut dari kesimpulan, berupa anjuran atau rekomendasi yang disampaikan secara ringkas dan dapat diimplementasikan
 
 ## Referensi
 
-Badan Pusat Statistik (BPS) Indonesia. (2024). Statistik Ekspor dan Impor Indonesia. Jakarta: BPS. (Dapat digunakan sebagai sumber data ekspor dan GDP).
+Gupta, K., Choirinnida, I. T., & Taufik, M. (2022). Global value chain impact for Indonesia economy and the way to make it more resilient. In Indonesia Post-Pandemic Outlook: Rethinking Health and Economics Post-COVID-19. BRIN Publishing.
 
-Gujarati, D. N., & Porter, D. C. (2009). Basic Econometrics (5th Edition). New York: McGraw-Hill.
+Media, K. C. (2022, December 24). Ekspor Bauksit Distop, Pembangunan 12 Smelter Ditarget Rampung Juni 2023. KOMPAS.com. https://money.kompas.com/read/2022/12/24/110000926/ekspor-bauksit-distop-pembangunan-12-smelter-ditarget-rampung-juni-2023
 
-Kementerian Perdagangan Republik Indonesia. (2024). Laporan Perdagangan Ekspor CPO dan Produk Turunannya. Jakarta: Kemendag.
+Sjahrir, B. S., Kis-Katos, K., & Schulze, G. G. (2014). Administrative Overspending in Indonesian Districts: The Role of Local Politics. World Development, 59, 166--183. https://doi.org/10.1016/j.worlddev.2014.01.008
 
-World Bank. (2024). World Development Indicators (WDI). Washington, DC: World Bank.
+Referensi ini dibuat dengan Zotero. Di penelitian aslinya, anda harus masukan referensi yang anda gunakan ketika mulai menulis.
